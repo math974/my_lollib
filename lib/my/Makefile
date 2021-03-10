@@ -74,6 +74,9 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_math/my_modf.c \
 			my_math/my_modff.c \
 			my_math/my_modfl.c \
+			my_math/my_fmin.c \
+			my_math/my_fminf.c \
+			my_math/my_fminl.c \
 			my_function/my_swap.c \
 			my_function/my_str_to_word_array.c \
 			my_function/my_str_to_word_array_choice.c \

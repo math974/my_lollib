@@ -21,6 +21,9 @@
 //
 ////////////////////////////////////////////////////////////
 
+#define MIN(x,y) (((x) >= (y)) ? (y) : (x))
+#define MAX(x,y) (((x) >= (y)) ? (x) : (y))
+
 int my_compute_power_rec(int nb, int p);
 int my_compute_square_root(int nb);
 int my_isneg(int n);
