@@ -10,6 +10,22 @@
 #ifndef MY_STDIO_H_
 #define MY_STDIO_H_
 
+////////////////////////////////////////////////////////////
+//
+//                             _      _ _
+//     _ __ ___  _   _     ___| |_ __| (_) ___
+//    | '_ ` _ \| | | |   / __| __/ _` | |/ _ \.
+//    | | | | | | |_| |   \__ \ || (_| | | (_) |
+//    |_| |_| |_|\__, |___|___/\__\__,_|_|\___/
+//               |___/_____|
+//
+//    This library mainly allows the manipulation of character streams
+//    (either to a file or the console). This library also offers a set
+//    of useful functions for managing your files.
+//
+//
+////////////////////////////////////////////////////////////
+
 typedef struct display_s {
     char *diplay;
     void (*format)(va_list);
