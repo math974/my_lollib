@@ -11,7 +11,7 @@
 #include "my_string.h"
 #include "malloc.h"
 
-void *my_realloc(void *ptr, my_size_t mem_size)
+void *my_realloc(void *ptr, my_size_t old_size, my_size_t mem_size)
 {
     void *new;
 
@@ -20,11 +20,11 @@ void *my_realloc(void *ptr, my_size_t mem_size)
         if (!new)
             return (NULL);
     } else {
-        if (sizeof(ptr) < mem_size) {
+        if (old_size < mem_size) {
             new = malloc(mem_size);
             if (!new)
                 return (NULL);
-            my_memcpy(new, ptr, sizeof(ptr));
+            my_memcpy(new, ptr, old_size);
             free(ptr);
         } else
             new = ptr;

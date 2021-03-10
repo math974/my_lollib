@@ -224,6 +224,8 @@ double my_atof(const char *str);
 ///
 /// \param ptr the memory address of the memory block to be reallocated.
 ///
+/// \param old_size old size (in bytes) to the old memory block.
+///
 /// \param mem_size allows you to specify the size (in bytes) of the memory block to be allocated.
 ///
 /// \return If all goes well, the function returns a pointer to the reallocated memory area.
@@ -235,7 +237,7 @@ double my_atof(const char *str);
 /// However, this is not always done by developers.
 ///
 ////////////////////////////////////////////////////////////
-void *my_realloc(void *ptr, my_size_t mem_size);
+void *my_realloc(void *ptr, my_size_t old_size, my_size_t mem_size);
 
 
 ////////////////////////////////////////////////////////////

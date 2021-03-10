@@ -24,5 +24,6 @@
 int my_compute_power_rec(int nb, int p);
 int my_compute_square_root(int nb);
 int my_isneg(int n);
+double my_modf(double value, double *int_part);
 
 #endif /* !MY_MATH_H_ */
