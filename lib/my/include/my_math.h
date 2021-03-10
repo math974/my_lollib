@@ -28,5 +28,13 @@ int my_compute_power_rec(int nb, int p);
 int my_compute_square_root(int nb);
 int my_isneg(int n);
 double my_modf(double value, double *int_part);
+float my_modff(float value, float *int_part);
+long double my_modfl(long double value, long double *int_part);
+double my_fmin(double x, double y);
+float my_fminf(float x, float y);
+long double my_fminl(long double x, long double y);
+double my_fmax(double x, double y);
+float my_fmaxf(float x, float y);
+long double my_fmaxl(long double x, long double y);
 
 #endif /* !MY_MATH_H_ */
