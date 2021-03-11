@@ -5,7 +5,7 @@
 ** recursive power
 */
 
-int my_compute_power_rec(int nb, int p)
+double my_pow(double nb, double p)
 {
     int result = 1;
 
@@ -16,7 +16,7 @@ int my_compute_power_rec(int nb, int p)
         return 0;
     }
     if (0 < p) {
-        result = my_compute_power_rec(nb, p - 1);
+        result = my_pow(nb, p - 1);
         result = result * nb;
         return result;
     }

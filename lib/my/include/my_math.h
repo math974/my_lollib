@@ -24,7 +24,9 @@
 #define MIN(x,y) (((x) >= (y)) ? (y) : (x))
 #define MAX(x,y) (((x) >= (y)) ? (x) : (y))
 
-int my_compute_power_rec(int nb, int p);
+double my_pow(double nb, double p);
+float my_powf(float value, float power);
+long double my_powl(long double value, long double power);
 int my_compute_square_root(int nb);
 int my_isneg(int n);
 double my_modf(double value, double *int_part);
@@ -36,5 +38,8 @@ long double my_fminl(long double x, long double y);
 double my_fmax(double x, double y);
 float my_fmaxf(float x, float y);
 long double my_fmaxl(long double x, long double y);
+double my_fdim(double x, double y);
+float my_fdimf(float x, float y);
+long double my_fdiml(long double x, long double y);
 
 #endif /* !MY_MATH_H_ */

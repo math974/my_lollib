@@ -68,7 +68,9 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_string/my_clean_str.c \
 			my_string/my_strdeleate_chara.c \
 			my_string/my_strcat.c \
-			my_math/my_compute_power_rec.c \
+			my_math/my_pow.c \
+			my_math/my_powf.c \
+			my_math/my_powl.c \
 			my_math/my_compute_square_root.c \
 			my_math/my_isneg.c \
 			my_math/my_modf.c \
@@ -80,6 +82,9 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_math/my_fmax.c \
 			my_math/my_fmaxf.c \
 			my_math/my_fmaxl.c \
+			my_math/my_fdim.c \
+			my_math/my_fdimf.c \
+			my_math/my_fdiml.c \
 			my_function/my_swap.c \
 			my_function/my_str_to_word_array.c \
 			my_function/my_str_to_word_array_choice.c \
