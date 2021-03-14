@@ -20,6 +20,9 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_stdio/my_printf/my_printf.c \
 			my_stdio/my_perror.c \
 			my_stdio/my_puts.c \
+			my_stdio/my_fputc.c \
+			my_stdio/my_fputs.c \
+			my_stdio/my_fwrite.c \
 			my_stdio/my_printf/function_struct.c \
 			my_stdio/my_printf/function_struct2.c \
 			my_stdio/my_printf/function_struct3.c \

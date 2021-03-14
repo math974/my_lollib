@@ -6,6 +6,9 @@
 */
 
 #include <stdarg.h>
+#include <stdio.h>
+#include <unistd.h>
+#include "my_stdlib.h"
 
 #ifndef MY_STDIO_H_
 #define MY_STDIO_H_
@@ -31,6 +34,9 @@ typedef struct display_s {
     void (*format)(va_list);
 }display_t;
 
+ssize_t my_fputc(const int character,  FILE *stream);
+int my_fputs(const char *string, FILE *stream);
+ssize_t my_fwrite(FILE *stream, const void *buf, my_size_t count);
 int my_getnbr(char const *str);
 int my_printf(const char *format, ...);
 void my_perror(const char *prefix);
