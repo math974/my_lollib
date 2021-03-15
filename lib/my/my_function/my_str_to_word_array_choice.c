@@ -35,6 +35,7 @@ int compt_letter_c(char const *str, int i, char sep)
 
 char **my_str_to_word_array_choice(char const *str, char sep)
 {
+    int i_tab = 0;
     int i_word = 0;
     char **tab = malloc(sizeof(char *) * (compt_word_c(str, sep) + 1));
 
@@ -42,9 +43,10 @@ char **my_str_to_word_array_choice(char const *str, char sep)
         for (; str[i] == sep && str[i] != '\0'; i++)
             continue;
         tab[i_word] = malloc(sizeof(char) * (compt_letter_c(str, i, sep) + 1));
-        for (int i_tab = 0; str[i] != sep && str[i] != '\0'; i_tab++, i++)
+        for (; str[i] != sep && str[i] != '\0'; i_tab++, i++)
             tab[i_word][i_tab] = str[i];
-        tab[i_word][compt_letter_c(str, i, sep) - 1] = '\0';
+        tab[i_word][i_tab] = '\0';
+        i_tab = 0;
     }
     tab[i_word] = NULL;
     return (tab);
