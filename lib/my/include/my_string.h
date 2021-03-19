@@ -31,6 +31,7 @@ char *my_strupcase(char *str);
 char *my_strdup(char const *src);
 void *my_memset(void *dest, int value, size_t count);
 void *my_memcpy(void *dest, void *src, my_size_t size);
+int my_memcmp(const void* ptr1, const void *ptr2, my_size_t size);
 char *my_clean_str(char *str);
 char *my_strdeleate_chara(char *src, char charact);
 char *my_strcat(char *src1, char *src2);

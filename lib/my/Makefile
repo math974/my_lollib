@@ -68,6 +68,7 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_string/my_strdup.c \
 			my_string/my_memset.c \
 			my_string/my_memcpy.c \
+			my_string/my_memcmp.c \
 			my_string/my_clean_str.c \
 			my_string/my_strdeleate_chara.c \
 			my_string/my_strcat.c \
