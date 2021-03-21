@@ -50,6 +50,9 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_ctype/my_ispunct.c \
 			my_ctype/my_isspace.c \
 			my_ctype/my_isupper.c \
+			my_ctype/my_isblank.c \
+			my_ctype/my_isxdigit.c \
+			my_ctype/my_isgraph.c \
 			my_string/my_str_isalpha.c \
 			my_string/my_str_islower.c \
 			my_string/my_str_isnum.c \

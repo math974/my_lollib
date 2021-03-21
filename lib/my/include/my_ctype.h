@@ -167,4 +167,8 @@ int my_issapce(char c);
 ////////////////////////////////////////////////////////////
 int my_isupper(char c);
 
+int my_isblank(char c);
+int my_isxdigit(char c);
+int my_isgraph(char c);
+
 #endif /* !MY_CTYPE_H_ */
