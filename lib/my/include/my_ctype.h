@@ -170,5 +170,7 @@ int my_isupper(char c);
 int my_isblank(char c);
 int my_isxdigit(char c);
 int my_isgraph(char c);
+char my_tolower(char c);
+char my_toupper(char c);
 
 #endif /* !MY_CTYPE_H_ */
