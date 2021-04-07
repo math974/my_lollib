@@ -18,5 +18,6 @@ char *my_strdup(char const *src)
         str[i] = src[i];
         i = i + 1;
     }
+    str[i] = '\0';
     return str;
 }

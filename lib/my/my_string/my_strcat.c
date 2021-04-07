@@ -19,6 +19,6 @@ char *my_strcat(char *src1, char *src2)
         new_cat[i_new] = src1[i];
     for (int i = 0; src2[i] != '\0'; i++, i_new++)
         new_cat[i_new] = src2[i];
-    new_cat[size + 1] = '\0';
+    new_cat[size] = '\0';
     return (new_cat);
 }
