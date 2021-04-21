@@ -97,6 +97,7 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_function/my_swap.c \
 			my_function/my_str_to_word_array.c \
 			my_function/my_str_to_word_array_choice.c \
+			my_function/my_str_to_word_array_mult.c \
 			my_function/my_input.c \
 			my_function/my_size.c \
 			my_function/my_display_array.c \

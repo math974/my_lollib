@@ -35,5 +35,6 @@ int my_size_line(char *str, int i);
 void free_array(char **array);
 char **copy_array(char **src_array);
 int my_indexof(char *src, char *corespond);
+char **my_str_to_word_array_mult(char const *str, char *sep);
 
 #endif /* !MY_FUNCTION_H_ */
