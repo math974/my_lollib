@@ -23,6 +23,19 @@
 //
 ////////////////////////////////////////////////////////////
 
+#define MY_ASSERT(condition) \
+  if ( (condition) == 0 ) \
+  { \
+    puts("La condition '" #condition "' a échoué\n"); \
+    exit(1);  \
+  } else {  \
+    puts("La condition '" #condition "' a réussi\n"); \
+    exit(1);  \
+  }
+
+#define DEBUG(message, ...) fprintf(stderr, GREEN"%s:%d:"BLUE"["message"]\n"RESET, \
+    __FILE__, __LINE__, ## __VA_ARGS__ )
+
 void my_swap(int *a, int *b);
 char **my_str_to_word_array(char const *str);
 char **my_str_to_word_array_choice(char const *str, char sep);
