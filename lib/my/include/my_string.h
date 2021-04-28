@@ -35,5 +35,6 @@ int my_memcmp(const void* ptr1, const void *ptr2, my_size_t size);
 char *my_clean_str(char *str);
 char *my_strdeleate_chara(char *src, char charact);
 char *my_strcat(char *src1, char *src2);
+char *my_strchr(const char* str, int searchedChar);
 
 #endif /* !MY_STRING_H_ */
