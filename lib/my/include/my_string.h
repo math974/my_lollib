@@ -37,5 +37,6 @@ char *my_strdeleate_chara(char *src, char charact);
 char *my_strcat(char *src1, char *src2);
 char *my_strchr(const char* str, int searchedChar);
 char *my_strrchr(const char *string, int searchedChar);
+size_t my_strcspn(const char *string, const char *rejectedCharacters);
 
 #endif /* !MY_STRING_H_ */
