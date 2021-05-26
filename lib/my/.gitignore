@@ -56,3 +56,4 @@ dkms.conf
 *.a
 a.out
 html
+#tests

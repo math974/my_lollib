@@ -111,6 +111,7 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_function/free_array.c \
 			my_function/copy_array.c \
 			my_function/parser/my_indexof.c \
+			my_function/my_stringLength.c \
 			my_stdlib/my_abs.c \
 			my_stdlib/my_labs.c \
 			my_stdlib/my_llabs.c \
