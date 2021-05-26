@@ -19,7 +19,7 @@ static BOOL check_charact(const char *string, int c)
 
 size_t my_strcspn(const char *string, const char *rejectedCharacters)
 {
-    int i_compt = 0;
+    size_t i_compt = 0;
 
     do {
         if (check_charact(rejectedCharacters, *string) == TRUE)
