@@ -16,7 +16,7 @@ typedef unsigned long my_size_t;
 char *my_revstr(char *str);
 char *my_strcapitalize(char *str);
 int my_strcmp(char const *s1, char const *s2);
-char *my_strcpy (char *dest , char const *src);
+char *my_strcpy (char *dest , char *src);
 int my_strlen(char const *str);
 int my_strncmp(char const *s1, char const *s2, int  n);
 char *my_strncpy(char *dest, char const *src, int n);
@@ -36,5 +36,6 @@ char *my_clean_str(char *str);
 char *my_strdeleate_chara(char *src, char charact);
 char *my_strcat(char *src1, char *src2);
 char *my_strchr(const char* str, int searchedChar);
+char *my_strrchr(const char *string, int searchedChar);
 
 #endif /* !MY_STRING_H_ */

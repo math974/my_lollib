@@ -2,17 +2,15 @@
 ** EPITECH PROJECT, 2020
 ** my_strcpy.c
 ** File description:
-** copy the source string
+** copy the contents of a string into another string
 */
 
-char *my_strcpy(char *dest , char const *src)
-{
-    int i = 0;
+#include <stddef.h>
+#include "my_string.h"
 
-    while (src[i] != '\0') {
-        dest[i] = src[i];
-        i = i + 1;
-    }
-    dest[i] = '\0';
-    return (dest);
+char *my_strcpy(char *dest , char *src)
+{
+    size_t size = my_strlen(src);
+
+    return ((char *)my_memcpy(dest, src, size + 1));
 }

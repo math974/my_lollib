@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2021
 ** my_strchr.c
 ** File description:
-** my_strchr
+** searches for the first occurrence of the character passed as the second par
 */
 
 #include <stddef.h>

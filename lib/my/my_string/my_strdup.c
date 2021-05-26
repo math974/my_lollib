@@ -8,16 +8,12 @@
 #include "my_string.h"
 #include "stdlib.h"
 
-char *my_strdup(char const *src)
+char *my_strdup(const char *src)
 {
-    int i = 0;
-    int src2 = my_strlen(src);
-    char *str = malloc(sizeof(char) * (src2 + 1));
+    size_t size = my_strlen(src);
+    char *str = malloc(sizeof(char) * (size + 1));
 
-    while (src[i] != '\0') {
-        str[i] = src[i];
-        i = i + 1;
-    }
-    str[i] = '\0';
-    return str;
+    if (str == NULL)
+        return (NULL);
+    return ((char *)my_memcpy(str, (char *)src, size));
 }
