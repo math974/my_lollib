@@ -127,6 +127,7 @@ SRC		=	my_linked_list/create_linked_listes.c \
 
 SRCT 	=	tests/test_my_stdio/tests_my_printf.c \
 			tests/test_my_string/test_my_strdup.c \
+			tests/test_my_string/test_my_strcat.c \
 
 OBJ		=	$(SRC:.c=.o)
 
@@ -171,8 +172,8 @@ auteur:
 
 t:	tests_run
 
-c:	
+c:
 	gcovr --exclude tests/
 
-b:	
+b:
 	gcovr --exclude tests/ --branches
