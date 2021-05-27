@@ -39,5 +39,6 @@ char *my_strchr(const char* str, int searchedChar);
 char *my_strrchr(const char *string, int searchedChar);
 size_t my_strcspn(const char *string, const char *rejectedCharacters);
 size_t my_strspn(const char *string, const char *acceptedCharacters);
+char *my_strpbrk(char *string, char *searchedCharacters);
 
 #endif /* !MY_STRING_H_ */

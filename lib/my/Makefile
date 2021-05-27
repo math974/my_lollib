@@ -81,6 +81,7 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_string/my_strrchr.c \
 			my_string/my_strcspn.c \
 			my_string/my_strspn.c \
+			my_string/my_strpbrk.c \
 			my_math/my_pow.c \
 			my_math/my_powf.c \
 			my_math/my_powl.c \
