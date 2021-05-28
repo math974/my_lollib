@@ -126,6 +126,7 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_stdlib/my_lldiv.c \
 			my_stdlib/my_realloc.c \
 			my_stdlib/my_calloc.c \
+			my_strings/my_index.c \
 
 SRCT 	=	tests/test_my_stdio/tests_my_printf.c \
 			tests/test_my_string/test_my_strdup.c \
