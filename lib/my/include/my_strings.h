@@ -9,5 +9,6 @@
 #define MY_STRINGS_H_
 
 char *my_index(const char *str, int c);
+char *my_rindex(const char *str, int c);
 
 #endif /* !MY_STRINGS_H_ */
