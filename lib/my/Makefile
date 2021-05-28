@@ -55,33 +55,34 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_ctype/my_isgraph.c \
 			my_ctype/my_tolower.c \
 			my_ctype/my_toupper.c \
-			my_string/my_str_isalpha.c \
-			my_string/my_str_islower.c \
-			my_string/my_str_isnum.c \
-			my_string/my_str_isprintable.c \
-			my_string/my_str_isupper.c \
-			my_string/my_strlowcase.c \
-			my_string/my_strucase.c \
-			my_string/my_revstr.c \
-			my_string/my_strcapitalize.c \
-			my_string/my_strcmp.c \
-			my_string/my_strcpy.c \
-			my_string/my_strncmp.c \
-			my_string/my_strncpy.c \
-			my_string/my_strstr.c \
-			my_string/my_strlen.c \
-			my_string/my_strdup.c \
-			my_string/my_memset.c \
-			my_string/my_memcpy.c \
-			my_string/my_memcmp.c \
-			my_string/my_clean_str.c \
-			my_string/my_strdeleate_chara.c \
-			my_string/my_strcat.c \
-			my_string/my_strchr.c \
-			my_string/my_strrchr.c \
-			my_string/my_strcspn.c \
-			my_string/my_strspn.c \
-			my_string/my_strpbrk.c \
+			my_string/str_verify/my_str_isalpha.c \
+			my_string/str_verify/my_str_islower.c \
+			my_string/str_verify/my_str_isnum.c \
+			my_string/str_verify/my_str_isprintable.c \
+			my_string/str_verify/my_str_isupper.c \
+			my_string/strn/my_strncmp.c \
+			my_string/strn/my_strncpy.c \
+			my_string/mem/my_memset.c \
+			my_string/mem/my_memcpy.c \
+			my_string/mem/my_memcmp.c \
+			my_string/mem/my_memchr.c \
+			my_string/str/my_strstr.c \
+			my_string/str/my_strlen.c \
+			my_string/str/my_strdup.c \
+			my_string/str/my_clean_str.c \
+			my_string/str/my_strlowcase.c \
+			my_string/str/my_strucase.c \
+			my_string/str/my_revstr.c \
+			my_string/str/my_strcapitalize.c \
+			my_string/str/my_strcmp.c \
+			my_string/str/my_strcpy.c \
+			my_string/str/my_strdeleate_chara.c \
+			my_string/str/my_strcat.c \
+			my_string/str/my_strchr.c \
+			my_string/str/my_strrchr.c \
+			my_string/str/my_strcspn.c \
+			my_string/str/my_strspn.c \
+			my_string/str/my_strpbrk.c \
 			my_math/my_pow.c \
 			my_math/my_powf.c \
 			my_math/my_powl.c \
