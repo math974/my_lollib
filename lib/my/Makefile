@@ -62,6 +62,7 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_string/str_verify/my_str_isupper.c \
 			my_string/strn/my_strncmp.c \
 			my_string/strn/my_strncpy.c \
+			my_string/strn/my_strnlen.c \
 			my_string/mem/my_memset.c \
 			my_string/mem/my_memcpy.c \
 			my_string/mem/my_memcmp.c \

@@ -41,5 +41,6 @@ size_t my_strcspn(const char *string, const char *rejectedCharacters);
 size_t my_strspn(const char *string, const char *acceptedCharacters);
 char *my_strpbrk(char *string, char *searchedCharacters);
 void *my_memchr(const void *memory_block, int search_char, my_size_t size);
+size_t my_strnlen(const char *str, size_t maxlen);
 
 #endif /* !MY_STRING_H_ */
