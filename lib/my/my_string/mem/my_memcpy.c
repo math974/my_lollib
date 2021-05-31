@@ -6,8 +6,9 @@
 */
 
 #include "my_string.h"
+#include <stddef.h>
 
-void *my_memcpy(void *dest, void *src, my_size_t size)
+void *my_memcpy(void *dest, void *src, size_t size)
 {
     char *new_src = (char *) src;
     char *new_dest = (char *) dest;

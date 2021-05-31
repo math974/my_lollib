@@ -8,7 +8,7 @@
 #include "my_stdlib.h"
 #include <stddef.h>
 
-void *my_memchr(const void *memory_block, int search_char, my_size_t size)
+void *my_memchr(const void *memory_block, int search_char, size_t size)
 {
     const unsigned char *src = (const unsigned char *)memory_block;
 
