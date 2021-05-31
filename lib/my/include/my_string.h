@@ -34,7 +34,7 @@ void *my_memcpy(void *dest, void *src, my_size_t size);
 int my_memcmp(const void* ptr1, const void *ptr2, my_size_t size);
 char *my_clean_str(char *str);
 char *my_strdeleate_chara(char *src, char charact);
-char *my_strcat(char *src1, char *src2);
+char *my_strcat(char *dest, char *src);
 char *my_strchr(const char* str, int searchedChar);
 char *my_strrchr(const char *string, int searchedChar);
 size_t my_strcspn(const char *string, const char *rejectedCharacters);
