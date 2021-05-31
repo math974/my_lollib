@@ -19,7 +19,7 @@ int my_strcmp(char const *s1, char const *s2);
 char *my_strcpy (char *dest , char *src);
 int my_strlen(char const *str);
 int my_strncmp(char const *s1, char const *s2, int  n);
-char *my_strncpy(char *dest, char const *src, int n);
+char *my_strncpy(char *dest, const char *src, size_t n);
 char *my_strstr(char *str, char const *to_find);
 int my_str_isalpha(char const *str);
 int my_str_islower(char const *str);

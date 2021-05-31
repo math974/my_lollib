@@ -5,20 +5,14 @@
 ** copie n characters
 */
 
-char *my_strncpy(char *dest, char const *src, int n)
-{
-    int i = 0;
-    int e = 0;
+#include <stddef.h>
+#include "my_string.h"
 
-    while (src[e] != '\0') {
-        e = e + 1;
-    }
-    while (i < n) {
-        dest[i] = src[i];
-        i = i + 1;
-        if (e < n) {
-            dest[e] = '\0';
-        }
-    }
-    return dest;
+char *my_strncpy(char *dest, const char *src, size_t n)
+{
+    size_t size = my_strnlen(src, n);
+
+    if (size != n)
+        dest[size] = '\0';
+    return (my_memcpy(dest, (char *)src, size));
 }
