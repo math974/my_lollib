@@ -5,9 +5,10 @@
 ** string of concatenated
 */
 
-#include <my_string.h>
+#include "my_string.h"
 
-char *my_strcat(char *dest, char *src)
+char *my_strcat(char *dest, const char *src)
 {
-    return (my_strcpy(dest + my_strlen(dest), src));
+    my_strcpy(dest + my_strlen(dest), (char *)src);
+    return (dest);
 }

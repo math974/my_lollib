@@ -10,6 +10,7 @@
 size_t my_stringLength(const char *str)
 {
     const char *ptr = str;
+
     while(*ptr++ != '\0');
     return (ptr - str - 1);
 }
