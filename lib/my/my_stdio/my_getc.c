@@ -12,10 +12,10 @@
 
 int my_getc(FILE *stream)
 {
-    char buffer[BUFF_SIZE];
+    char buffer[1];
     int ret = 0;
 
-    if ((ret = read(stream->_fileno, buffer, BUFF_SIZE)) > 0)
+    if ((ret = read(stream->_fileno, buffer, 1)) > 0)
         return (*buffer);
     return (EOF);
 }

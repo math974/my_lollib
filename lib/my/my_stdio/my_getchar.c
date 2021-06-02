@@ -12,10 +12,10 @@
 
 int my_getchar(void)
 {
-    char buffer[BUFF_SIZE];
+    char buffer[1];
     int ret = 0;
 
-    if ((ret = read(STDIN_FILENO, buffer, BUFF_SIZE)) > 0)
+    if ((ret = read(STDIN_FILENO, buffer, 1)) > 0)
         return (*buffer);
     return (EOF);
 }
