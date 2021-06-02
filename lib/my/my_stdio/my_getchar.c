@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2021
 ** my_getchar.c
 ** File description:
-** my_getchar
+** read a character at the current position of the current character stream
 */
 
 #include <stdio.h>

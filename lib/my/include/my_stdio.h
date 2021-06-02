@@ -39,6 +39,7 @@ typedef struct display_s {
 ssize_t my_fputc(const int character,  FILE *stream);
 int my_fputs(const char *string, FILE *stream);
 ssize_t my_fwrite(FILE *stream, const void *buf, my_size_t count);
+int my_fgetc(FILE *stream);
 int my_getc(FILE *stream);
 int my_getchar(void);
 int my_getnbr(char const *str);
