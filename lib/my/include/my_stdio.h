@@ -42,6 +42,7 @@ ssize_t my_fwrite(FILE *stream, const void *buf, my_size_t count);
 int my_fgetc(FILE *stream);
 int my_getc(FILE *stream);
 int my_getchar(void);
+char *my_gets(char *str);
 int my_getnbr(char const *str);
 int my_printf(const char *format, ...);
 void my_perror(const char *prefix);

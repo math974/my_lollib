@@ -26,6 +26,7 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_stdio/my_getchar.c \
 			my_stdio/my_getc.c \
 			my_stdio/my_fgetc.c \
+			my_stdio/my_gets.c \
 			my_stdio/my_printf/function_struct.c \
 			my_stdio/my_printf/function_struct2.c \
 			my_stdio/my_printf/function_struct3.c \
