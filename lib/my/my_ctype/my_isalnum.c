@@ -9,8 +9,5 @@
 
 int my_isalnum(char c)
 {
-    if ((my_isalpha(c) == 1) || (my_isdigit(c) == 1))
-        return (1);
-    else
-        return (0);
+    return ((my_isalpha(c) == 1) || (my_isdigit(c) == 1));
 }

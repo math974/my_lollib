@@ -7,5 +7,5 @@
 
 int my_isblank(char c)
 {
-    return (c == '\t' || c == ' ');
+    return ((c == '\t' || c == ' '));
 }

@@ -7,9 +7,12 @@
 
 #include "my_ctype.h"
 
+int my_letterxdigit(char c)
+{
+    return ((c >= 'A' && c <= 'F') || (c >= 'a' && c <= 'f'));
+}
+
 int my_isxdigit(char c)
 {
-    int recup = my_isdigit(c) == 1;
-
-    return ((recup == 1) || (c >= 'A' && c <= 'F') || (c >= 'a' && c <= 'f'));
+    return (my_isdigit(c) == 1 || my_letterxdigit(c) == 1);
 }

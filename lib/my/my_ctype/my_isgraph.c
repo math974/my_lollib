@@ -7,5 +7,5 @@
 
 int my_isgraph(char c)
 {
-    return (c >= '!' && c <= '~');
+    return ((c >= '!' && c <= '~'));
 }
