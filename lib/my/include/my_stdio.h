@@ -29,6 +29,8 @@
 //
 ////////////////////////////////////////////////////////////
 
+#define BUFF_SIZE 1023
+
 typedef struct display_s {
     char *diplay;
     void (*format)(va_list);
@@ -37,6 +39,7 @@ typedef struct display_s {
 ssize_t my_fputc(const int character,  FILE *stream);
 int my_fputs(const char *string, FILE *stream);
 ssize_t my_fwrite(FILE *stream, const void *buf, my_size_t count);
+int my_getchar(void);
 int my_getnbr(char const *str);
 int my_printf(const char *format, ...);
 void my_perror(const char *prefix);
