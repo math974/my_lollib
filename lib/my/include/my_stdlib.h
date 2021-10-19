@@ -33,6 +33,7 @@
 
 typedef unsigned long my_size_t;
 
+#define ABS(x)  (x > 0) ? (x) : (-x)
 
 ////////////////////////////////////////////////////////////
 /// \brief If all goes well, the function returns a pointer to the newly allocated area.
@@ -254,5 +255,15 @@ void *my_realloc(void *ptr, my_size_t old_size, my_size_t mem_size);
 ///
 ////////////////////////////////////////////////////////////
 void *my_calloc(my_size_t count, my_size_t size);
+
+#define ARRAY_SIZE(x)   sizeof(x) / sizeof(*x)
+
+#define FOREACH(item, array) \
+    for(int keep_m = 1, \
+            count = 0,\
+            size = sizeof (array) / sizeof *(array); \
+        keep_m && count != size; \
+        keep_m = !keep_m, count++) \
+        for(item = (array) + count; keep_m; keep_m = !keep_m)
 
 #endif /* !MY_STDLIB_H_ */
