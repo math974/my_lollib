@@ -7,6 +7,7 @@
 
 #include "my_stdlib.h"
 #include <stddef.h>
+#include <math.h>
 
 int my_memcmp(const void *ptr1, const void *ptr2, size_t size)
 {

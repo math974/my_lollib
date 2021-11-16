@@ -13,6 +13,7 @@
 
 typedef unsigned long my_size_t;
 
+void my_bzero(void *to, size_t count);
 char *my_revstr(char *str);
 char *my_strcapitalize(char *str);
 int my_strcmp(char const *s1, char const *s2);

@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "array": "c",
+        "compare": "c",
+        "functional": "c",
+        "istream": "c",
+        "ostream": "c",
+        "ranges": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c"
+    }
+}
