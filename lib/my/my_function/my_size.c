@@ -15,17 +15,17 @@ ssize_t my_size(char *filename)
     char *line = NULL;
     size_t len = 0;
     ssize_t read = 0;
-    ssize_t résult = 0;
+    ssize_t result = 0;
 
     fp = fopen(filename, "r");
     if (fp == NULL)
         return (-1);
     else {
         while ((read = getline(&line, &len, fp)) != -1)
-            résult = résult + read;
+            result = result + read;
     }
     if (line)
         free(line);
     fclose(fp);
-    return (résult);
+    return (result);
 }
