@@ -13,6 +13,6 @@ size_t my_strnlen(const char *str, size_t maxlen)
 
     for (; i < maxlen; i++)
         if (str[i] == '\0')
-            break;
+            return (i);
     return (i);
 }
