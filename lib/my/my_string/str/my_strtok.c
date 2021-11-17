@@ -30,7 +30,7 @@ char *my__strtok_r(char *s, const char *delim, char **save_ptr)
     return s;
 }
 
-char *my_strtock(char *string, const char *delim)
+char *my_strtok(char *string, const char *delim)
 {
     static char *old_str = "";
 
