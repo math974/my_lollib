@@ -10,8 +10,8 @@
 
 char *my_strdup(const char *src)
 {
-    size_t size = my_strlen(src);
-    char *str = malloc(sizeof(char) * (size + 1));
+    size_t size = my_strlen(src) + 1;
+    char *str = malloc(sizeof(char) * (size));
 
     if (str == NULL)
         return (NULL);
