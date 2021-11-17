@@ -73,6 +73,7 @@ SRC		=	my_linked_list/create_linked_listes.c \
 			my_string/mem/my_memcpy.c \
 			my_string/mem/my_memcmp.c \
 			my_string/mem/my_memchr.c \
+			my_string/str/my_strtok.c \
 			my_string/str/my_strstr.c \
 			my_string/str/my_strlen.c \
 			my_string/str/my_strdup.c \
