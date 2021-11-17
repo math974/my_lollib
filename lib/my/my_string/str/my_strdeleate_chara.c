@@ -23,7 +23,7 @@ int not_deleate(char *str, char charact)
 char *my_strdeleate_chara(char *src, char charact)
 {
     int i_new = 0;
-    char *new_str = malloc(sizeof(char) * not_deleate(src, charact) + 1);
+    char *new_str = malloc(sizeof(char) * (not_deleate(src, charact) + 1));
 
     for (int i = 0; src[i] != '\0'; i++) {
         if (src[i] != charact) {
