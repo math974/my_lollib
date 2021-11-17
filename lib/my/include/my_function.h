@@ -49,6 +49,7 @@ void free_array(char **array);
 char **copy_array(char **src_array);
 int my_indexof(char *src, char *corespond);
 char **my_str_to_word_array_mult(char const *str, char *sep);
+char **my_split(char *src, char *sep);
 size_t my_stringLength(const char *str);
 
 #endif /* !MY_FUNCTION_H_ */
